@@ -1,2 +1,6 @@
 # Null-Sector
 My website!
+
+Copyright (c) 2026 Your Name
+All rights reserved.
+This code may not be copied, modified, distributed, or used in any form without explicit permission from the author.
