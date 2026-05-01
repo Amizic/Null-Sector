@@ -1,0 +1,13 @@
+:root{
+    --primary:#0b0b0b;
+    --secondary:#111111;
+    --tertiary:#ec3636;
+
+    --border-color: #1c1c1c;
+
+    --button-shadow-color: #dfdfdf;
+    --button-border-color: #555555;
+
+    --font-primary:#f7f7f7;
+    --font-secondary:#a7a7a7;
+}

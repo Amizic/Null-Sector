@@ -1,0 +1,274 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100vh;
+    background-color: var(--secondary);
+    font-family: monospace;
+}
+
+a:link,
+a:hover,
+a:visited{
+    color: var(--font-secondary);
+    text-decoration: none;
+}
+
+a:hover{
+    color: var(--font-primary);
+}
+
+.glow-text{
+  color: var(--tertiary);
+  text-shadow: 0 0 16px var(--tertiary);
+}
+
+.glow-text:hover{
+    text-shadow:
+    0 0 5px var(--tertiary),
+    0 0 10px var(--tertiary),
+    0 0 20px var(--tertiary),
+    0 0 40px var(--tertiary);
+}
+
+.glow-button{
+  color: var(--tertiary);
+  text-shadow: 0 0 16px var(--button-shadow-color);
+  border: 1px solid var(--button-border-color);
+  padding: 7px 4px;
+}
+
+.glow-button:hover{
+    text-shadow:
+    0 0 5px var(--tertiary),
+    0 0 10px var(--tertiary),
+    0 0 20px var(--tertiary),
+    0 0 40px var(--tertiary);
+}
+
+/*-----------------------------CRVENI STILIZOVANI FONT*/
+.styled-font{
+    color: var(--tertiary) !important;
+}
+
+/*-------------------------------------------------------------------HEADER*/
+
+header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: var(--primary);
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-button{
+    padding: 12px;
+    font-size: x-large;
+}
+
+#nav-left-placeholder{
+width: 25%;
+min-width: 25%;
+height: 100%;
+padding: 12px;
+display: flex;
+align-items: center;
+justify-content: flex-start;
+}
+
+#nav-right-placeholder{
+width: 25%;
+min-width: 25%;
+height: 100%;
+padding: 12px;
+display: flex;
+align-items: center;
+justify-content: flex-end;
+}
+
+#clock{
+    width: fit-content;
+    height: 100%;
+    display: flex;
+    align-self: center;
+    justify-self: center;
+    /* padding: 12px;
+    padding-right: 48px; */
+    color: var(--tertiary);
+}
+
+/*--------------------------------------------GLAVNI SADRZAJ (HERO, SEKCIJE...)*/
+
+main{
+    display: flex;
+    flex-grow: 1;
+    max-width: 50%;
+    width: 32%;
+    padding: 2% 6%;
+    flex-direction: column;
+    align-self: center;
+}
+
+
+#hero{
+    max-width: 100%;
+    padding-top: 5%;
+    padding: 5%;
+}
+
+#hero-heading{
+    font-size: 6rem;
+    margin-bottom: 0px;
+    color: var(--font-primary);
+}
+
+#hero-under-heading{
+    font-size: 2rem;
+    margin-top: 0px;
+    color: var(--font-secondary);
+}
+
+.showoff-heading{
+    font-size: 4rem;
+    /* margin-bottom: 0px; */
+    color: var(--font-primary);
+}
+
+/*-----------------------------------------Sekcije*/
+.column-section,
+.row-section{
+    display: flex;
+    padding: 2% 1%;
+    flex-direction: column;
+    color: var(--font-primary);
+    align-items: flex-start;
+}
+
+.row-section{
+  flex-direction: row;
+}
+
+/*------------------------------------------Tabele*/
+table {
+  max-width: 100%;
+  width: fit-content;
+  border-spacing: 0;
+  border-collapse: collapse;
+  font-size: large;
+}
+
+th{
+color: var(--font-primary);
+}
+
+td{
+    color: var(--font-secondary);
+}
+
+th, td {
+  padding: 12px 16px;
+  border: 1px solid var(--border-color);
+}
+
+.bio-image{
+  width: 100%;
+  max-width: 164px;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+
+
+
+/*-------------------------------------------------------------------FOOTER*/
+footer{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    height: fit-content;
+    background-color: var(--primary);
+}
+
+.footer-column{
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    color: var(--font-secondary);
+}
+
+.copyright {
+  color: var(--font-secondary);
+  font-size: 0.9rem;
+  text-align: center;
+  opacity: 0.8;
+}
+
+
+@media (max-width: 768px) {
+
+  /* HEADER */
+  header {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav {
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  .nav-button {
+    font-size: 1rem;
+    padding: 8px;
+  }
+
+  #clock {
+    padding: 8px;
+  }
+
+  /* HERO */
+  #hero {
+    padding: 10% 5%;
+    text-align: center;
+  }
+
+  #hero-heading {
+    font-size: 2.5rem;
+  }
+
+  #hero-under-heading {
+    font-size: 1.2rem;
+  }
+
+  /* TABLE */
+  table {
+    font-size: 0.9rem;
+  }
+
+  th, td {
+    padding: 8px 10px;
+  }
+
+  /* FOOTER */
+  footer {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer-column {
+    padding: 12px;
+  }
+}
