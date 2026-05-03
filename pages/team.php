@@ -21,7 +21,7 @@
             <section class="column-section align-self-center width-max">
                 <h2><span class="styled-font">MSc</span> Vuk Amizic [<span class="styled-font">LEAD</span> SOFTWARE DEVELOPER]</h2>
                 <p>Software Developer with Master's Degree in Information Technologies.</p>
-                <a href="team/amizic">[BIO LINK]</a>
+                <a href="Team/Amizic">[BIO LINK]</a>
             </section>
 
             <div class="block-separator underline"></div>
@@ -29,12 +29,12 @@
             <section class="column-section align-self-center width-max">
                 <h2><span class="styled-font">BSc</span> Filip Rogelj [<span class="styled-font">LEAD</span> NETWORK SPECIALIST]</h2>
                 <p>Network Specialist with Bachelor's Degree in Electrotechnics and Computing Hardware.</p>
-                <a href="team/rogelj">[BIO LINK]</a>
+                <a href="Team/Rogelj">[BIO LINK]</a>
             </section>
 
     </section>
 </main>
-<?php require("../partials/footer.php");?>
-<script src="../js/time.js"></script>
+<?php require("partials/footer.php");?>
+<script src="js/time.js"></script>
 </body>
 </html>

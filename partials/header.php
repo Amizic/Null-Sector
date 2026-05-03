@@ -3,12 +3,12 @@
     
     </div>
     <nav>
-        <a class="nav-button" href="home">HOME</a>
-        <a class="nav-button" href="services">SERVICES</a>
-        <a class="nav-button" href="team">TEAM</a>
+        <a class="nav-button" href="Home">HOME</a>
+        <a class="nav-button" href="Services">SERVICES</a>
+        <a class="nav-button" href="Team">TEAM</a>
         <a class="nav-button styled-font" href="#">[REDACTED]</a>
-        <a class="nav-button" href="partnership">PARTNERSHIP</a>
-        <a class="nav-button" href="#">CONTACT</a>
+        <a class="nav-button" href="Partnership">PARTNERSHIP</a>
+        <a class="nav-button" href="Contact">CONTACT</a>
     </nav>
     <div id="nav-right-placeholder">
         <div id="clock"></div>

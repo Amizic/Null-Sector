@@ -34,7 +34,7 @@
 
 <?php require("../partials/footer.php");?>
 
-<script src="../js/time.js"></script>
-<script src="../js/tablemagic.js"></script>
+<script src="js/time.js"></script>
+<script src="js/tablemagic.js"></script>
 </body>
 </html>
