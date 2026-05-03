@@ -34,7 +34,7 @@
 
     </section>
 </main>
-<?php require("partials/footer.php");?>
+<?php require("../partials/footer.php");?>
 <script src="js/time.js"></script>
 </body>
 </html>
