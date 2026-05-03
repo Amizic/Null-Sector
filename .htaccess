@@ -1,0 +1,12 @@
+RewriteEngine On
+RewriteBase /_null_sector/
+
+RewriteRule ^Home/?$ index.php [L]
+RewriteRule ^Services/?$ pages/services.php [L]
+RewriteRule ^Redacted/?$ pages/redacted.php [L]
+RewriteRule ^Team/Amizic/?$ pages/amizic.php [L]
+RewriteRule ^Team/Rogelj/?$ pages/rogelj.php [L]
+RewriteRule ^Team/?$ pages/team.php [L]
+RewriteRule ^Partnership/?$ pages/partnership.php [L]
+
+ErrorDocument 404 /_null_sector/pagesError/error.php
