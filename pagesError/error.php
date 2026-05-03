@@ -22,7 +22,7 @@
         <h2>Page not found</h2>
 
         <p class="monospace-font-large">
-            The requested route does not exist or has been moved.
+            The requested route does not exist, is under construction or has been moved.
         </p>
 
         <a href="Home" class="display-flex justify-content-center glow-button">[Return Home]</a>      
